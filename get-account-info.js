@@ -10,7 +10,7 @@ const api = new RippleAPI({
 });
 
 api.connect().then(()=>{
-  const myAddres='r3qQrJMkXW8WexLDgKrT6rPC8C6QMy9y4p';
+  const myAddres='rf1BiGeXwwQoi8Z2ueFYTEXSwuJYfV2Jpn';
   console.log('Getting account info for', myAddres);
   return api.getAccountInfo(myAddres)
 }).then(info=>{
